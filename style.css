@@ -1,0 +1,48 @@
+.jumbotron {
+    background-color: indigo;
+}
+
+.fullname {
+    color: white;
+    text-align: center;
+    font-size: 75px;
+}
+
+.btn {
+    background-color: teal;
+    color: white;
+    float: right;
+    margin: 5px;
+}
+
+.pageheading {
+    color: teal;
+    font-size: 50px;
+    text-align: center;
+    margin: 0px 0px 30px 0px;
+}
+
+img {
+    margin: 0px 10px 10px 0px;
+}
+
+p {
+    font-size: 18px;
+}
+
+
+.card-footer {
+    background-color: rgb(140, 212, 191);
+    color: white;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
+
+.clearfix {
+    clear: both;
+    display: block;
+    content: “”;
+}
