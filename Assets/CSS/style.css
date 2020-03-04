@@ -15,11 +15,15 @@
     margin: 5px;
 }
 
+.col-md-8 {
+    border: 1px solid gray;
+}
+
 .pageheading {
     color: teal;
     font-size: 50px;
     text-align: center;
-    margin: 0px 0px 30px 0px;
+    margin: 0px 0px 40px 0px;
 }
 
 img {
@@ -28,6 +32,11 @@ img {
 
 p {
     font-size: 18px;
+    color: gray;
+}
+
+.card {
+    margin: 10px;
 }
 
 
