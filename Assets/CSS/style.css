@@ -1,5 +1,6 @@
 .jumbotron {
     background-color: teal;
+    margin-bottom: 0px;
 }
 
 .fullname {
@@ -8,7 +9,8 @@
     text-align: center;
     font-size: 40px;
     float: left;
-    margin-left: 250px;
+    margin-left: 245px;
+    margin-bottom: 5px;
 }
 
 .btn-container {
@@ -24,8 +26,23 @@
     display: inline;
 }
 
-.container {
+body, html {
+    height: 100%;
+  }
+  .bg {
+    background-image: url("https://github.com/megswen/Bootstrap-Portfolio/blob/master/Assets/Images/rockywall_@2X%20copy.png?raw=true");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+
+.col-md-8 {
     border: 1px solid gray;
+    position: relative;
+    background-color: white;
+    margin: 20px 0px;
 }
 
 .pageheading {
