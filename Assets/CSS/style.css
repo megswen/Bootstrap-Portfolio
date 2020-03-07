@@ -29,7 +29,8 @@
 body, html {
     height: 100%;
   }
-  .bg {
+  
+.bg {
     background-image: url("https://github.com/megswen/Bootstrap-Portfolio/blob/master/Assets/Images/rockywall_@2X%20copy.png?raw=true");
     height: 100%;
     background-position: center;
@@ -43,6 +44,12 @@ body, html {
     position: relative;
     background-color: white;
     margin: 20px 0px;
+    align-items: center;
+}
+
+.card {
+    display: inline;
+    max-width: 50%;
 }
 
 .pageheading {
@@ -70,10 +77,6 @@ p {
     background-color: gray;
     color: white;
     margin-bottom: 15px;
-}
-
-.form-control {
-
 }
 
 .card-footer {
